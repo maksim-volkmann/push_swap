@@ -18,7 +18,21 @@
 - **Error Handling**: Robust validation of input data to handle errors gracefully.
 - **Visualization Tool**: Includes a visualizer to watch the sorting algorithm in action, enhancing understanding and debugging.
 
-## Getting Started
+## Available Instructions
+
+The sorting operations allowed in this project are limited to manipulating the two stacks, A and B, as follows:
+
+- `sa` (swap A): Swap the first two elements at the top of stack A.
+- `sb` (swap B): Swap the first two elements at the top of stack B.
+- `ss`: `sa` and `sb` at the same time.
+- `pa` (push A): Take the first element at the top of B and put it at the top of A.
+- `pb` (push B): Take the first element at the top of A and put it at the top of B.
+- `ra` (rotate A): Shift up all elements of stack A by 1.
+- `rb` (rotate B): Shift up all elements of stack B by 1.
+- `rr`: `ra` and `rb` at the same time.
+- `rra` (reverse rotate A): Shift down all elements of stack A by 1.
+- `rrb` (reverse rotate B): Shift down all elements of stack B by 1.
+- `rrr`: `rra` and `rrb` at the same time.
 
 ### Prerequisites
 
