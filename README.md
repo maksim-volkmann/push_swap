@@ -53,6 +53,13 @@ To verify that the operations output by push_swap are correct, you can pipe its 
 ARG="42 21 17 6 8"; ./push_swap $ARG | ./checker $ARG
 ```
 
+### Bonus Feature
+The bonus part includes the checker program, which can be compiled using:
+
+```bash
+make bonus
+```
+
 ## Visualizer
 The [visualizer](https://github.com/ailopez-o/42Barcelona-PushSwap-ProChecker) can help you see the sorting process. To use it, download and build the visualizer with the following command:
 ```bash
@@ -69,4 +76,3 @@ ARG=$(ruby -e "puts (0..500).to_a.shuffle.join(' ')"); ./push_swap ${ARG} | ./pr
 ## Additional notes
 
 Visualizer used is: https://github.com/ailopez-o/42Barcelona-PushSwap-ProChecker
-# push_swap
